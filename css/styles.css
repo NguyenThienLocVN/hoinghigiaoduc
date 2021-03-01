@@ -6,15 +6,12 @@ a { text-decoration: none !important; }
 	z-index: 2;
 }
 
-.header-nav a:hover {
-	border-bottom: 1px solid #cecece;
-	transition: 1s;
-}
-
 .header-banner {
     top: 0;
     z-index: 1;
 }
+
+.change-language { top: 0px; right: 10px; }
 
 .main-banner {
 	filter: blur(6px);
