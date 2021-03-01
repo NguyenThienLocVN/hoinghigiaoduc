@@ -1,8 +1,6 @@
 ul, li { list-style: none; }
 a { text-decoration: none !important; }
 
-header { height: 100vh; }
-
 .header-nav {
 	background: #0060adc2;
 	z-index: 2;
@@ -16,7 +14,6 @@ header { height: 100vh; }
 .header-banner {
     top: 0;
     z-index: 1;
-    height: 100vh;
 }
 
 .main-banner {
@@ -231,6 +228,5 @@ header { height: 100vh; }
 
 .footer-background {
     background-size: cover;
-    height: 50vh;
-    filter: grayscale(1);
+    filter: blur(8px)
 }
